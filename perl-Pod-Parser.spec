@@ -8,7 +8,7 @@ Version:	%{perl_convert_version %{modver}}
 Release:	1
 License:	GPL+ or Artistic
 URL:		https://metacpan.org/release/Pod-Parser
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Cwd)
 BuildRequires:	perl(File::Basename)
@@ -21,7 +21,7 @@ Old Documentation). See the "perlpod" and "perlsyn" manual pages from your
 Perl5 distribution for more information about POD.
 
 %prep
-%autosetup -n Pod-Parser-%{version} -p1
+%autosetup -n %{modname}-%{modver} -p1
 
 find -type f -exec chmod -x {} +
 chmod +x scripts/*
