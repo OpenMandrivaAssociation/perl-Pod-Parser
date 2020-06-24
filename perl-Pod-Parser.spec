@@ -14,6 +14,7 @@ BuildRequires:	perl(Cwd)
 BuildRequires:	perl(File::Basename)
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Test)
 BuildRequires:	perl(Pod::Checker)
 
 %description
