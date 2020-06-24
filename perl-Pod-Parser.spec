@@ -14,6 +14,7 @@ BuildRequires:	perl(Cwd)
 BuildRequires:	perl(File::Basename)
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Pod::Checker)
 
 %description
 This software distribution contains the packages for using Perl5 POD (Plain
