@@ -11,6 +11,7 @@ URL:		https://metacpan.org/release/Pod-Parser
 Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Cwd)
+BuildRequires:	perl-srpm-macros
 BuildRequires:	perl(File::Basename)
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Test::More)
