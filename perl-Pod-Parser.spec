@@ -1,13 +1,7 @@
-# Run optional test
-%if ! (0%{?rhel})
-%bcond_without perl_Pod_Parser_enables_optional_test
-%else
-%bcond_with perl_Pod_Parser_enables_optional_test
-%endif
 
 Name:           perl-Pod-Parser
 Version:        1.63
-Release:        442%{?dist}
+Release:        STOP
 Summary:        Basic perl modules for handling Plain Old Documentation (POD)
 License:        GPL+ or Artistic
 URL:            https://metacpan.org/release/Pod-Parser
