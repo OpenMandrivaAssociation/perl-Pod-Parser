@@ -5,7 +5,7 @@
 Summary:	Basic perl modules for handling Plain Old Documentation (POD)
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	1
+Release:	2
 License:	GPL+ or Artistic
 URL:		https://metacpan.org/release/Pod-Parser
 Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/%{modname}-%{modver}.tar.gz
