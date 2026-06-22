@@ -1,14 +1,13 @@
 %define modname Pod-Parser
-%define modver 1.63
 
 
 Summary:	Basic perl modules for handling Plain Old Documentation (POD)
 Name:		perl-%{modname}
-Version:	%{perl_convert_version %{modver}}
-Release:	2
+Version:	1.67
+Release:	1
 License:	GPL+ or Artistic
 URL:		https://metacpan.org/release/Pod-Parser
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/%{modname}-%{modver}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Cwd)
 BuildRequires:	perl-srpm-macros
@@ -24,7 +23,7 @@ Old Documentation). See the "perlpod" and "perlsyn" manual pages from your
 Perl5 distribution for more information about POD.
 
 %prep
-%autosetup -n %{modname}-%{modver} -p1
+%autosetup -n %{modname}-%{version} -p1
 
 find -type f -exec chmod -x {} +
 chmod +x scripts/*
